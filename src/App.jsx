@@ -1,15 +1,9 @@
-import React from 'react'
-import Card from './card'
-
-
+import CardContainer from "./CardContainer";
 
 export default function App() {
   return (
     <div>
-
-      <Card/>
-      
-
+      <CardContainer />
     </div>
-  )
+  );
 }
